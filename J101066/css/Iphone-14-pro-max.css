@@ -1,0 +1,727 @@
+   /*CSS for iphone 14 pro (430px format)*/
+   /*code adapted (GreatStack, 2021) */
+   @media screen and (max-width: 430px)
+   {
+    #logo {
+      position: absolute;
+      top: -8% ;
+      left: 50% ;
+      transform: translateX(-50%);
+      width: 200px;
+      height: auto;
+    }
+  
+    h1 {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-size: 20px;
+      margin-top: 9%;
+      padding: 3%;
+    }
+    a {
+      background-color: rgb(120, 120, 120);
+
+    }
+  
+    
+    nav{
+      background-color: rgb(120, 120, 120);
+      overflow: hidden;
+    }
+    
+    nav a{
+      float: none;
+      display: block;
+      color:rgb(0, 0, 0);
+      font-size:18px;
+      text-align:center;
+      padding: 10px;
+      text-decoration:none;
+    }
+  
+    nav a:hover{
+      color:rgb(0, 0, 0);
+
+    }
+  
+    nav a.click{
+      color:grey;
+
+    }
+  
+    #Twitter-Logo {
+      position: absolute;
+      width: 30px;
+      top: 3%;
+      left: 20%;
+    }
+    
+  #Instagram-Logo {
+    position: absolute;
+    width: 30px;
+    left: 12%;
+    top: 3%;
+  }
+  
+  #COD-Logo-Website {
+    position: absolute;
+    width: 30px;
+    left: 3%;
+    top: 3%;
+  }
+
+  .Video-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13%;
+  }
+
+  .MW3-Container{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 1%;
+    right: 32%;
+    top: 65%;
+  }
+
+  .Season-Container {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 41%;
+    top: 68%;
+  }
+
+  .RD-Container {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    right: 32%;
+  }
+
+  .Content-Container {
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -2%;
+    top: 71%;
+  }
+
+  #Map {
+    position: absolute;
+    top: 106%;
+    left: 0%;
+    width: 429px;
+    height: auto;
+  }
+
+  .Read-More-Btn {
+    background-color: transparent;
+    color: #ffffff;
+    text-align: left;
+    position: absolute;
+    top: 103%;
+    right: 40%;
+
+  }
+
+  /*430px titles page in 430px format */
+
+  .Classic-Titles-Container{
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    top: 30;
+  }
+
+  .Classic-Text-Container{
+    color: #ffffff;
+    position: absolute;
+    font-size: 20px;
+    top: 32%;
+    text-align: left;
+  }
+
+  #COD1 {
+    position: absolute;
+    top: 42%;
+    width: 200px;
+  }
+
+  #COD2 {
+    position: absolute;
+    top: 80%;
+    width: 200px;
+    left: 3%;
+  }
+
+ .Cod1-Container{
+    color: #ffffff;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 70%;
+  }
+
+  .Cod2-Container{
+    position: absolute;
+    bottom: -17%;
+    left: 3%;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .COD-1-DOR {
+  position: absolute;
+  top: 74%;
+  right: 0%;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+  .COD-2-DOR {
+    position: absolute;
+    left: 3%;
+    bottom: -20%;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    margin-top: -2%;
+  }
+
+  .Modern-Titles-Container {
+    color: #ffffff;
+    position: absolute;
+    top: 117%;
+    font-size: 20px;
+    font-weight: bold;
+    right: 38%;
+  }
+
+  .Modern-Text-Container {
+    color: #ffffff;
+    position: absolute;
+    left: 3%;
+    top: 117%;
+    font-size: 20px;
+  }
+
+  #CODMW {
+    position: absolute;
+    left: 3%;
+    top: 133%;
+    width: 200px;
+  }
+
+  #CODBO1 {
+    position: absolute;
+    left: 3%;
+    top: 173%;
+    width: 200px;
+  }
+
+  #CODGhost {
+    position: absolute;
+    left: 3%;
+    top: 212%;
+    width: 200px;
+  }
+
+  .CODMW-Container {
+    color: #ffffff;
+    position: absolute;
+    left: 3%;
+    bottom: -70%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .CODBO1-Container {
+    color: #ffffff;
+    position: absolute;
+    left: 3%;
+    bottom: -110%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .CODGhost-Container {
+    color: #ffffff;
+    position: absolute;
+    left: 3%;
+    bottom: -145%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .CODMWDOR-Container {
+    color: #ffffff;
+    position: absolute;
+    left: 3%;
+    bottom: -72%;
+    font-size: 20px;
+  }
+
+  .CODBODOR-Container {
+    color: #ffffff;
+    position: absolute;
+    left: 3%;
+    bottom: -113%;
+    font-size: 20px; 
+  }
+
+  .CODGhostDOR-Container {
+    color: #ffffff;
+    position: absolute;
+    left: 3%;
+    bottom: -148%;
+    font-size: 20px; 
+  }
+
+  .Future-Titles-Container {
+    color: #ffffff;
+    position: absolute;
+    bottom: -153%;
+    font-size: 20px;
+    font-weight: bold; 
+    right: 38%;
+  }
+
+ .Future-Text-Container {
+  color: #ffffff;
+    position: absolute;
+    bottom: -160%;
+    font-size: 20px;
+ } 
+
+ #CODAW {
+  position: absolute;
+  width: 200px;
+  left: 3%;
+  bottom: -190%;
+ }
+
+ #CODBO3 {
+  position: absolute;
+  width: 200px;
+  left: 3%;
+  bottom: -230%;
+ }
+
+ #CODIW {
+  position: absolute;
+  width: 200px;
+  left: 3%;
+  bottom: -275%;
+ }
+
+ .CODAW-Container {
+  color: #ffffff;
+    position: absolute;
+    bottom: -198%;
+    left: 2%;
+    font-size: 20px;
+    font-weight: bold; 
+ }
+
+ .CODBO3-Container {
+color: #ffffff;
+  position: absolute;
+  bottom: -240%;
+  left: 3%;
+  font-size: 20px;
+  font-weight: bold; 
+ }
+
+ .CODIW-Container {
+color: #ffffff;
+  position: absolute;
+  bottom: -283%;
+  left: 3%;
+  font-size: 20px;
+  font-weight: bold; 
+ }
+
+ .CODAWDOR-Container {
+  color: #ffffff;
+  position: absolute;
+  bottom: -200%;
+  left: 2%;
+  font-size: 20px;
+ }
+
+ .CODBO3DOR-Container {
+  color: #ffffff;
+  position: absolute;
+  bottom: -243%;
+  left: 3%;
+  font-size: 20px;
+ }
+
+ .CODIWDOR-Container {
+  color: #ffffff;
+  position: absolute;
+  bottom: -285%;
+  left: 3%;
+  font-size: 20px;
+ }
+
+ .Remastered-Titles-Container {
+  color: #ffffff;
+  position: absolute;
+  bottom: -289%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+ }
+
+ .Remastered-Text-Container {
+  color: #ffffff;
+  position: absolute;
+  bottom: -295%;
+  left: 3%;
+  font-size: 20px;
+ }
+
+ #CODMWR {
+  position: absolute;
+  width: 200px;
+  left: 3%;
+  bottom: -325%;
+  font-weight: bold;
+ }
+
+ #CODMW2R {
+  position: absolute;
+  width: 200px;
+  left: 3%;
+  bottom: -365%;
+  font-weight: bold;
+ }
+
+ .CODMWR-Container {
+  color: #ffffff;
+  position: absolute;
+  bottom: -332%;
+  left: 3%;
+  font-size: 20px;
+  font-weight: bold;
+ }
+
+ .CODMW2R-Container {
+  color: #ffffff;
+  position: absolute;
+  bottom: -372%;
+  left: 3%;
+  font-size: 20px;
+  font-weight: bold;
+ }
+
+ .CODMWRDOR-Container {
+  color: #ffffff;
+  position: absolute;
+  bottom: -334%;
+  left: 3%;
+  font-size: 20px;
+ }
+
+ .CODMW2RDOR-Container {
+  color: #ffffff;
+  position: absolute;
+  bottom: -375%;
+  left: 3%;
+  font-size: 20px;
+ }
+
+ /* dev css code in 430px format*/
+
+ .Developers-Text-Container {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+ }
+
+ #IW-Logo {
+  width: 250px;
+ }
+
+.IW-Video-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+ .Infinity_Ward-Text-Container {
+  color: #ffffff;
+  position: absolute;
+  font-size: 20px;
+  top: 107%;
+ }
+
+ #Treyarch-Logo {
+  width: 250px;
+  position: absolute;
+  top: 130%;
+ }
+
+.Treyarch-Video-Container {
+  width: 100%;
+  height: auto; 
+  max-width: 430px; 
+  max-height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  overflow: hidden;
+  right: 0%;
+  top: 150%;
+}
+
+ .Treyarch-Text-Container {
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  bottom: -100%;
+ }
+
+ #SledgeHammer-Logo {
+  width: 250px;
+  position: absolute;
+  bottom: -120%;
+  left: 3%;
+ }
+
+ .SledgeHammer-Text-Container {
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  bottom: -172%;
+ }
+
+ .SledgeHammer-Video-Container {
+  width: 100%;
+  height: auto; 
+  max-width: 430px; 
+  max-height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  overflow: hidden;
+  right: 0%;
+  top: 222%;
+ }
+
+   /*css code for Esports page in 430px format*/
+
+   .Esports-Text-Container {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+   }
+
+   .Read-More-Btn-league {
+    background-color: transparent;
+    color: #ffffff;
+    text-align: left;
+    position: absolute;
+    top: 48%;
+    right: 40%;
+   }
+
+   #COD-League-2024 {
+    position: absolute;
+    width: 425px; 
+    left: 0%;
+    top: 51%;
+   }
+   
+   .Games-modes-Container {
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    left: 22%;
+    top: 81%;
+    font-size: 20px;
+   }
+
+   .Meet-The-Teams-Container {
+    color: #ffffff;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 123%;
+    right: 34%;
+   }
+
+   .Team-Faze {
+    color: #ff0000;
+    position: absolute;
+    font-size: 20px;
+    bottom: -46%;
+    text-align: center;
+    right: 22%;
+   }
+
+   .Team-Breach {
+    color: #51ff00;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: -61%;
+    left: 27%;
+   }
+
+   .Team-Ravens {
+    color: #0b64a8;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: -75%;
+    left: 27%;
+   }
+
+   .Team-Guerrillas {
+    color: #492ca9;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: -88%;
+    left: 27%;
+   }
+
+   .Team-Thieves {
+    color: #ff0303;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: -105%;
+    left: 27%;
+   }
+
+   .Team-Heretics {
+    color: #1c5384;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: -120%;
+    left: 23%;
+   }
+
+   .Team-Rokkr {
+    color: #3c0b9e;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: -136%;
+    left: 27%;
+   }
+
+   .Team-Subliners {
+    color: #ffff06;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: -149%;
+    left: 27%; 
+   }
+
+   .Team-Surge {
+    color: #00ffc8;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: -164%;
+    left: 24%; 
+   }
+
+   .Team-Optic {
+    color: #74be46;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: -177%;
+    left: 16%; 
+   }
+
+   .Team-Ultra {
+    color: #732dff;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: -190%;
+    left: 21%; 
+   }
+
+   .Team-Legion {
+    color: #ff9900;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: -205%;
+    left: 23%; 
+   }
+
+  /*css code for News page in 430px format*/
+
+ .SignUp-container {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left: 35%;
+ }
+
+ .form-container {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  label{
+    color: white;
+    font-size: 25px;
+    margin-top: 5%;
+  }
+  input[type="text"] {
+    width: 150px;
+    font-size: 20px;
+  }
+  button[type="submit"] {
+    background-color: transparent;
+    color: #ffffff;
+    position: absolute;
+    margin: -5%;
+    left: 4%;
+  }
+  }
+
+  .Info-container {
+    color: white;
+    position: absolute;
+    left: 18%;
+    bottom: 25%;
+    font-size: 20px;
+  }
+
+  #CODWZM-Event {
+    position: absolute;
+    padding: 0;
+    bottom: 0% ;
+    right: 0%;
+    width: 100%;
+  }
+  }
