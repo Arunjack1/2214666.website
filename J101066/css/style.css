@@ -2,24 +2,24 @@
 @media screen and (min-width: 3840px) and (min-height: 2160px) {
   }
 
-  
+ 
   body {
-    background-color:#000000;
+    background-color:#000000; /*Black background color*/
 }
   #logo {
     position: absolute;
     top: -11% ;
-    left: 50% ;
-    transform: translateX(-50%);
+    left: 50% ; /* centers the logo horizontally */
+    transform: translateX(-50%); /*centers the logo horiontally */
     width: 300px;
     height: auto;
   }
 
   h1 {
     color: rgb(255, 255, 255);
-    text-align: center;
+    text-align: center; /*center aligning text*/
     font-size: 20px;
-    margin-top: 4%;
+    margin-top: 4%; /*spacing from the top*/
   }
   a {
     background-color: rgb(120, 120, 120);
@@ -31,15 +31,17 @@
     overflow: hidden;
   }
   
+  /*styling for naviagion links*/
   nav a{
     float:left;
     color:rgb(0, 0, 0);
     font-size:20px;
     text-align:center;
-    padding: 15px 20px;
-    text-decoration:none;
+    padding: 15px 20px; /*padding*/
+    text-decoration:none; /*remove underline*/
   }
 
+  /*styling for hovering navigation links*/
   nav a:hover{
     color:rgb(0, 0, 0);
     background-color: rgb(114, 114, 114);
@@ -50,6 +52,7 @@
     background-color: white;
   }
 
+  /*styles for social media logos*/
   #Twitter-Logo {
     position: absolute;
     width: 59px;
@@ -85,7 +88,7 @@
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: bold; /*make text weight bold*/
     position: absolute;
     margin-top: 1%;
     right: 42%;
@@ -96,7 +99,7 @@
     color: #ffffff;
     text-align: left;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bold; /*make text weight bold*/
     position: absolute;
     top: 58%;
   }
@@ -114,7 +117,7 @@
     position: absolute;
     text-align: left;
     font-size: 27px;
-    margin-top: -2%;
+    margin-top: -2%; /*Negative top margin*/
     top: 65%;
   }
 
@@ -127,9 +130,9 @@
   }
 
   .Read-More-Btn {
-    background-color: transparent;
+    background-color: transparent; /*make background transparent*/
     color: #ffffff;
-    text-align: left;
+    text-align: left; /*align text to the left*/
     position: absolute;
     top: 98%;
 
@@ -139,9 +142,9 @@
 
   .Classic-Titles-Container{
     color: #ffffff;
-    text-align: left;
+    text-align: left; /*align text to the left*/
     font-size: 28px;
-    font-weight: bold;
+    font-weight: bold; /*make text weight bold*/
   }
 
   .Classic-Text-Container{
@@ -167,9 +170,9 @@
  .Cod1-Container{
     color: #ffffff;
     position: absolute;
-    text-align: left;
+    text-align: left; /*align text to the left*/
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bold; /*make text weight bold*/
     bottom: 30%;
     left: 3%;
   }
@@ -179,9 +182,9 @@
     left: 23%;
     bottom: 30%;
     color: #ffffff;
-    text-align: left;
+    text-align: left; /*align text to the left*/
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bold; /*make text weight bold*/
   }
 
 .COD-1-DOR {
@@ -189,9 +192,9 @@
   left: 2%;
   bottom: 28%;
   color: #ffffff;
-  text-align: left;
+  text-align: left; /*align text to the left*/
   font-size: 20px;
-  margin-top: -2%;
+  margin-top: -2%; /*negative top margin*/
 }
 
   .COD-2-DOR {
@@ -199,18 +202,18 @@
     left: 21%;
     bottom: 28%;
     color: #ffffff;
-    text-align: left;
+    text-align: left; /*align text to the left*/
     font-size: 20px;
-    margin-top: -2%;
+    margin-top: -2%; /*negative top margin*/
   }
 
   .Modern-Titles-Container {
     color: #ffffff;
     position: absolute;
-    right: 45.5%;
+    right: 45.5%; /*right positioning*/
     top: 16%;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: bold; /*make text weight bold*/
   }
 
   .Modern-Text-Container {
@@ -248,7 +251,7 @@
     right: 40%;
     bottom: 30%;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bold; /*make text weight bold*/
   }
 
   .CODBO1-Container {
@@ -257,7 +260,7 @@
     right: 24%;
     bottom: 30%;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bold; /*make text weight bold*/
   }
 
   .CODGhost-Container {
@@ -266,7 +269,7 @@
     right: 7%;
     bottom: 30%;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bold; /*make text weight bold*/
   }
 
   .CODMWDOR-Container {
@@ -296,15 +299,15 @@
   .Future-Titles-Container {
     color: #ffffff;
     position: absolute;
-    bottom: 20%;
+    bottom: 20%; /*bottom positioning*/
     font-size: 28px;
-    font-weight: bold; 
+    font-weight: bold; /*make text weight bold*/
   }
 
  .Future-Text-Container {
   color: #ffffff;
     position: absolute;
-    bottom: 16%;
+    bottom: 16%; /*bottom positioning*/
     font-size: 22px;
  } 
 
@@ -335,7 +338,7 @@
     bottom: -24%;
     left: 2%;
     font-size: 20px;
-    font-weight: bold; 
+    font-weight: bold; /*make text weight bold*/
  }
 
  .CODBO3-Container {
@@ -344,7 +347,7 @@ color: #ffffff;
   bottom: -24%;
   left: 22%;
   font-size: 20px;
-  font-weight: bold; 
+  font-weight: bold; /*make text weight bold*/
  }
 
  .CODIW-Container {
@@ -353,7 +356,7 @@ color: #ffffff;
   bottom: -24%;
   left: 38%;
   font-size: 20px;
-  font-weight: bold; 
+  font-weight: bold; /*make text weight bold*/
  }
 
  .CODAWDOR-Container {
@@ -383,17 +386,17 @@ color: #ffffff;
  .Remastered-Titles-Container {
   color: #ffffff;
   position: absolute;
-  bottom: 20%;
-  right: 32.5%;
+  bottom: 20%; /* Bottom positioning */
+  right: 32.5%; /* Right positioning */
   font-size: 28px;
-  font-weight: bold; 
+  font-weight: bold; /*make text weight bold*/
  }
 
  .Remastered-Text-Container {
   color: #ffffff;
   position: absolute;
-  bottom: 18%;
-  right: 20.5%;
+  bottom: 18%; /* Bottom positioning */
+  right: 20.5%; /* Right positioning */
   font-size: 22px;
  }
 
@@ -402,7 +405,7 @@ color: #ffffff;
   width: 265px;
   right: 30%;
   bottom: -20%;
-  font-weight: bold;
+  font-weight: bold; /*make text weight bold*/
  }
 
  #CODMW2R {
@@ -410,7 +413,7 @@ color: #ffffff;
   width: 250px;
   right: 13%;
   bottom: -20%;
-  font-weight: bold;
+  font-weight: bold; /*make text weight bold*/
  }
 
  .CODMWR-Container {
@@ -419,7 +422,7 @@ color: #ffffff;
   bottom: -28%;
   right: 30%;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: bold; /*make text weight bold*/
  }
 
  .CODMW2R-Container {
@@ -428,7 +431,7 @@ color: #ffffff;
   bottom: -28%;
   right: 13%;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: bold; /*make text weight bold*/
  }
 
  .CODMWRDOR-Container {
@@ -485,20 +488,20 @@ color: #ffffff;
   color: #ffffff;
   font-size: 22px;
   position: absolute;
-  bottom: -18%;
+  bottom: -18%; /* Bottom positioning */
  }
 
  #SledgeHammer-Logo {
   width: 450px;
   position: absolute;
-  bottom: -65%;
+  bottom: -65%; /* Bottom positioning */
  }
 
  .SledgeHammer-Text-Container {
   color: #ffffff;
   font-size: 22px;
   position: absolute;
-  bottom: -85%;
+  bottom: -85%; /* Bottom positioning */
  }
 
  .SledgeHammer-Video-Container {
@@ -515,12 +518,12 @@ color: #ffffff;
    }
 
    .Read-More-Btn-league {
-    background-color: transparent;
+    background-color: transparent; /*Transparent background*/
     color: #ffffff;
-    text-align: left;
+    text-align: left; /*align text to the left*/
     position: absolute;
-    top: 26%;
-    right: 67%;
+    top: 26%; /*Top positioning*/
+    right: 67%; /*Right positioning*/
    }
 
    #COD-League-2024 {
@@ -541,102 +544,102 @@ color: #ffffff;
     position: absolute;
     font-size: 28px;
     font-weight: bold;
-    top: 93%;
-    right: 46%;
+    top: 93%; /*Top positioning*/
+    right: 46%; /*Right positioning*/
    }
 
    .Team-Faze {
     color: #ff0000;
     position: absolute;
     font-size: 28px;
-    bottom: -20%;
+    bottom: -20%; /*bottom positioning*/
    }
 
    .Team-Breach {
     color: #51ff00;
     position: absolute;
     font-size: 28px;
-    bottom: -20%;
-    left: 20%;
+    bottom: -20%; /*bottom positioning*/
+    left: 20%; /*left positioning*/
    }
 
    .Team-Ravens {
     color: #0b64a8;
     position: absolute;
     font-size: 28px;
-    bottom: -17%;
-    left: 40%;
+    bottom: -17%; /*bottom positioning*/
+    left: 40%; /*left positioning*/
    }
 
    .Team-Guerrillas {
     color: #492ca9;
     position: absolute;
     font-size: 28px;
-    bottom: -17%;
-    left: 60%;
+    bottom: -17%; /*bottom positioning*/
+    left: 60%; /*left positioning*/
    }
 
    .Team-Thieves {
     color: #ff0303;
     position: absolute;
     font-size: 28px;
-    bottom: -20%;
-    left: 80%;
+    bottom: -20%; /*bottom positioning*/
+    left: 80%; /*left positioning*/
    }
 
    .Team-Heretics {
     color: #1c5384;
     position: absolute;
     font-size: 28px;
-    bottom: -43%;
+    bottom: -43%; /*bottom positioning*/
    }
 
    .Team-Rokkr {
     color: #3c0b9e;
     position: absolute;
     font-size: 28px;
-    bottom: -43%;
-    left: 20%;
+    bottom: -43%; /*bottom positioning*/
+    left: 20%; /*left positioning*/
    }
 
    .Team-Subliners {
     color: #ffff06;
     position: absolute;
     font-size: 28px;
-    bottom: -40%;
-    left: 40%; 
+    bottom: -40%; /*bottom positioning*/
+    left: 40%; /*left positioning*/
    }
 
    .Team-Surge {
     color: #00ffc8;
     position: absolute;
     font-size: 28px;
-    bottom: -43%;
-    left: 60%; 
+    bottom: -43%; /*bottom positioning*/
+    left: 60%; /*left positioning*/
    }
 
    .Team-Optic {
     color: #74be46;
     position: absolute;
     font-size: 28px;
-    bottom: -40%;
-    left: 80%; 
+    bottom: -40%; /*bottom positioning*/
+    left: 80%; /*left positioning*/
    }
 
    .Team-Ultra {
     color: #732dff;
     position: absolute;
     font-size: 28px;
-    bottom: -60%;
-    left: 30%; 
+    bottom: -60%; /*bottom positioning*/
+    left: 30%; /*left positioning*/
    }
 
    .Team-Legion {
     color: #ff9900;
     position: absolute;
     font-size: 28px;
-    bottom: -63%;
-    left: 53%; 
+    bottom: -63%; /*bottom positioning*/
+    left: 53%; /*left positioning*/
    }
 
    /*css code for News page*/
@@ -644,7 +647,7 @@ color: #ffffff;
    .SignUp-container {
     color: white;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: bold; /*make text weight bold*/
     position: absolute;
     left: 44%;
    }
